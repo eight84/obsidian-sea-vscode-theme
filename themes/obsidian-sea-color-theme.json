@@ -1,0 +1,74 @@
+{
+  "name": "Obsidian Sea",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0f111a",
+    "editor.foreground": "#e0e6ed",
+    "activityBar.background": "#13151f",
+    "sideBar.background": "#13151f",
+    "sideBar.border": "#2b2f3a",
+    "editorGroupHeader.tabsBackground": "#0f111a",
+    "tab.inactiveBackground": "#0f111a",
+    "tab.activeBackground": "#13151f",
+    "statusBar.background": "#0f111a",
+    "panel.background": "#13151f",
+    "panel.border": "#2b2f3a",
+    "titleBar.activeBackground": "#0f111a",
+    "button.background": "#ff4081",
+    "button.foreground": "#000000"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6272a4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#f1fa8c"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#ff79c6"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "entity.name.class",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#8be9fd"
+      }
+    },
+    {
+      "scope": [
+        "variable.language",
+        "variable.parameter",
+        "support.variable"
+      ],
+      "settings": {}
+    },
+    {
+      "scope": [
+        "punctuation"
+      ],
+      "settings": {}
+    }
+  ]
+}
